@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+a{
+   text-decoration: none;
+}
+
+td{
+   height: 100px;
+ }
+
+ img{
+   height: 100%;
+ 
+ }
+
+.titulo {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 1rem 2rem 1rem;
+    gap: 1rem;
+}
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 1rem 1rem 2rem 1rem;
+    place-items: center;
+    gap: 4rem;
+}
+
+.productos .contenedores {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 228, 228);
+    border-radius: 15%;
+    height: 25rem;
+    
+ }
+
+ .productos .contenedores img {
+    width: 80%;
+
+ }
+ .botones {
+    background-color: blue;
+    border-radius: 20%;
+   
+ }
+ #btn_agregar {
+    background-color: blue;
+    margin: 1rem 2rem 1rem 2rem;
+    color: white;
+    border-color: blue;
+
+ }
+
+ .container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+ }
+
+ .container .table {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+ }
+
+ .container .table td {
+    margin-right: 10rem;
+ }
+
+ .boton-con {
+   display: flex;
+   flex-flow: row;
+   justify-content: center;
+   align-items: center;
+   gap: 3rem;
+   margin-bottom: 2rem;
+   margin-top: 8rem;
+ }
+
+ #carrito{
+   display: flex;
+   flex-flow: column;
+   justify-content: center;
+   align-items: center;
+   width: 30%; 
+   background-color: rgb(255, 254, 254); 
+   height: 100vh;
+   border-top:1px solid black;
+
+}
+
+.tit-carrito{
+   display: flex;
+   flex-flow: row;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+   margin-top: 7rem;
+   margin-bottom: 4rem;
+
+}
+
+#cantidad {
+   margin: 1rem 1rem 1rem 1rem;
+}
+.table{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
