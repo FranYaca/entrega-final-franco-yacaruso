@@ -24,6 +24,15 @@ td{
     align-items: center;
     margin: 1rem 1rem 2rem 1rem;
     gap: 1rem;
+    color: red;
+}
+.carr {
+   gap: 2rem;
+}
+.carr a{
+   text-decoration: none;
+   font-size: 1.5em;
+   color:black
 }
 
 .productos {
@@ -97,17 +106,7 @@ td{
    margin-top: 8rem;
  }
 
- #carrito{
-   display: flex;
-   flex-flow: column;
-   justify-content: center;
-   align-items: center;
-   width: 30%; 
-   background-color: rgb(255, 254, 254); 
-   height: 100vh;
-   border-top:1px solid black;
-
-}
+ 
 
 .tit-carrito{
    display: flex;
@@ -115,14 +114,9 @@ td{
    justify-content: center;
    align-items: center;
    gap: 1rem;
-   margin-top: 7rem;
-   margin-bottom: 4rem;
-
 }
 
-#cantidad {
-   margin: 1rem 1rem 1rem 1rem;
-}
+
 .table{
    display: flex;
    justify-content: center;

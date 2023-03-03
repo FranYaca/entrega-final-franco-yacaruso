@@ -58,7 +58,7 @@ function borrar_item(e){
     carrito.splice(index, 1);
     mostrar_carrito()
     localStorage.setItem("productos", JSON.stringify(carrito))
-
+    location.reload()
 
 }
 
