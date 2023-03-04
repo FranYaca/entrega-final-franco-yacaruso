@@ -53,7 +53,6 @@ function actualizarNumerito() {
 
 
     let nuevo_numerito = carrito.reduce((acc, producto) =>  acc + producto.cantidad, 0);
-    console.log(nuevo_numerito)
     numerito.innerText = nuevo_numerito;
 
     }

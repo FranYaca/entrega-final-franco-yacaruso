@@ -62,8 +62,26 @@ function borrar_item(e){
 
 }
 
+function comprar(){
+    Swal.fire({
+        title: 'Compra exitosa',
+        text: 'Muchas gracias por su compra',
+        icon: 'success',
+        confirmButtonText: 'Cerrar'
+      })
+      .then (vaciar_carrito)
+
+
+}
+
 let btn_vaciar = document.querySelectorAll(".btn_vaciar");
 
 for(let btn of btn_vaciar){
     btn.addEventListener("click", vaciar_carrito);
+}
+
+let btn_comprar = document.querySelectorAll(".btn_comprar");
+
+for(let btn of btn_comprar){
+    btn.addEventListener("click", comprar);
 }
