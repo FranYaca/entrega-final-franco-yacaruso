@@ -20,7 +20,15 @@ if (carritoLS) {
 }
 
 function agregar_carrito (e){
-    
+    Toastify({
+
+        text: "Producto agregado",
+        gravity: "bottom",
+        duration: 2000,
+        position: "center"
+        }).showToast();
+
+
     let btn_id = e.currentTarget.id;
     let producto_agregado = productos.find(producto => producto.id == btn_id);
 
