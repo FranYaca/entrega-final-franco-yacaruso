@@ -19,11 +19,11 @@ td{
 
 .titulo {
     display: flex;
-    flex-flow: row;
+    flex-flow: column;
     justify-content: center;
     align-items: center;
     margin: 1rem 1rem 2rem 1rem;
-    gap: 1rem;
+    gap: 2rem;
     color: red;
 }
 .carr {
@@ -33,6 +33,18 @@ td{
    text-decoration: none;
    font-size: 1.5em;
    color:black
+}
+.carrit{
+   display: flex;
+   flex-flow: row;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+   box-shadow: 
+              inset 0 -3em 3em rgba(0,0,0,0.1),
+              0.3em 0.3em 1em rgba(0,0,0,0.3);;
+
+
 }
 
 .productos {
