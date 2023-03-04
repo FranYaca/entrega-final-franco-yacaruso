@@ -46,6 +46,14 @@ td{
 
 
 }
+.categorias{
+   display: flex;
+   flex-flow: row;
+   justify-content: space-around;
+   align-items: center;
+   margin-top: 1rem;
+   margin-bottom: 3rem;
+}
 
 .productos {
     display: grid;
