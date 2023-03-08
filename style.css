@@ -164,16 +164,26 @@ td{
 }
 
 @media screen and (max-width: 767px) {
-   .productos {
+   .productos .contenedores {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       margin: 1rem 1rem 2rem 1rem;
       place-items: center;
       gap: 2rem;
   }
+
+  .categorias{
+   display: flex;
+   flex-flow: column;
+   justify-content: space-around;
+   align-items: center;
+   gap:.5rem;
+   margin-top: 1rem;
+   margin-bottom: 3rem;
+}
 }
 @media screen and (min-width: 767px) and (max-width: 1023px) {
-   .productos {
+   .productos .contenedores {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       margin: 1rem 1rem 2rem 1rem;
