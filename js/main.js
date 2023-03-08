@@ -1,11 +1,61 @@
-let productos = [
-    {id: 1 ,foto: "imagenes/pc1.webp", nombre:"Pc - 1" , precio:190000, cantidad:"1"},
-    {id: 2 , foto: "imagenes/pc2.jpg", nombre:"Pc - 2" , precio:180000, cantidad:"1"},
-    {id:3 , foto: "imagenes/pc3.webp", nombre:"Pc - 3" , precio:200000, cantidad:"1"},
-    {id: 4 , foto: "imagenes/pc4.jpg", nombre:"Pc - 4" , precio:250000, cantidad:"1"},
-]
+let productos = []
+fetch("./js/productos.json")
+    .then(response => response.json())
+    .then(data => {
+        productos = data;
+        cargarProductos(productos);
+    })
+let numerito = document.querySelector("#numerito")
+let contenedorProductos = document.querySelector("#contenedor");
+let botonesAgregar = document.querySelectorAll(".producto-agregar");
+let botonesCategorias = document.querySelectorAll(".btn_categoria");
 
-const numerito = document.querySelector("#numerito")
+function cargarProductos(productosElegidos) {
+
+    contenedorProductos.innerHTML = "";
+
+    productosElegidos.forEach(producto => {
+
+        let div = document.createElement("div");
+        div.classList.add("producto");
+        div.innerHTML = `
+        <img class="producto-imagen" src="${producto.imagen}" alt="${producto.titulo}">
+        <div class="producto-detalles">
+        <h3 class="producto-titulo">${producto.titulo}</h3>
+        <p class="producto-precio">$${producto.precio}</p>
+        <button class="producto-agregar" id="${producto.id}">Agregar</button>
+        </div> 
+         `;
+
+        contenedorProductos.append(div);
+    })
+
+    botones_agregar();
+}
+
+
+botonesCategorias.forEach(boton => {
+    boton.addEventListener("click", (e) => {
+
+       if (e.currentTarget.id != "todos") {
+            
+            let productosBoton = productos.filter(producto => producto.categoria.id === e.currentTarget.id);
+            cargarProductos(productosBoton);
+        } else {
+            
+            cargarProductos(productos);
+        }
+
+    })
+});
+
+function botones_agregar() {
+    botonesAgregar = document.querySelectorAll(".producto-agregar");
+
+    botonesAgregar.forEach(boton => {
+        boton.addEventListener("click", agregar_carrito);
+    });
+}
 
 let carrito;
 
@@ -52,7 +102,7 @@ function agregar_carrito (e){
 function actualizarNumerito() {
 
 
-    let nuevo_numerito = carrito.reduce((acc, producto) =>  acc + producto.cantidad, 0);
+    let nuevo_numerito = carrito.reduce((acu, producto) =>  acu + producto.cantidad, 0);
     numerito.innerText = nuevo_numerito;
 
     }

@@ -60,45 +60,60 @@ td{
    margin-bottom: 3rem;
 }
 
-.productos {
+.productos .contenedores {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin: 1rem 1rem 2rem 1rem;
-    place-items: center;
     gap: 4rem;
-}
-
-.productos .contenedores {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(233, 228, 228);
-    border-radius: 15%;
-    height: 25rem;
-    box-shadow:
-       inset 0 -3em 3em rgba(0,0,0,0.1),
-             0.3em 0.3em 1em rgba(0,0,0,0.3);
-}
-    
- 
-
- .productos .contenedores img {
-    width: 80%;
-
- }
- .botones {
-    background-color: blue;
-    border-radius: 20%;
-   
- }
- #btn_agregar {
-    background-color: blue;
     margin: 1rem 2rem 1rem 2rem;
-    color: white;
-    border-color: blue;
+   }
+.productos .contenedores .producto {
+   display: flex;
+   flex-flow: column;
+   justify-content: center;
+   align-items: center;
+   gap: 2rem;
+   background-color: rgb(233, 228, 228);
+   border-radius: 15%;
+   height: 25rem;
+   box-shadow:
+   inset 0 -3em 3em rgba(0,0,0,0.1),
+   0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
 
- }
+.producto .producto-imagen {
+   max-width: 100%;
+   border-radius: 1rem;
+}
+
+.producto .producto-detalles {
+   padding: .5rem;
+   border-radius: 1rem;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   gap: .25rem;
+}
+
+.producto .producto-titulo {
+   font-size: 1rem;
+}
+
+.producto .producto-agregar {
+   border: 0;
+   background-color: blue;
+   color: white;
+   padding: .4rem;
+   text-transform: uppercase;
+   border-radius: 2rem;
+   cursor: pointer;
+
+
+}
+
+.producto .producto-agregar:hover {
+   background-color: violet;
+   color: white;
+}
 
  .container {
     display: flex;

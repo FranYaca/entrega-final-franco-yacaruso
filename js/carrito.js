@@ -11,8 +11,8 @@ function mostrar_carrito(){
             
             fila.innerHTML = 
             `
-            <td><img src = "${producto.foto}"</img></td>
-            <td><p>${producto.nombre}</p></td>
+            <td><img src = "${producto.imagen}"</img></td>
+            <td><p>${producto.titulo}</p></td>
             <td><p>${producto.cantidad}</p></td>
             <td><p>$ ${producto.precio}</p></td>
             <td><button class = "btn btn-danger borrar_item" id = "${producto.id}">Borrar</button></td>
