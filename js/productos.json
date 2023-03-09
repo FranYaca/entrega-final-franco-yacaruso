@@ -63,7 +63,7 @@
     {
         "id": "pc-03",
         "titulo": "Pc Armada Completa Cpu Computadora I5 8gb 1tb O Ssd Tareas Oficina",
-        "imagen": "../imagenes/img-productos/pc-3.jpeg",
+        "imagen": "imagenes/img-productos/pc-3.jpeg",
         "categoria": {
             "nombre": "Pc's de escritorio",
             "id": "pc"
