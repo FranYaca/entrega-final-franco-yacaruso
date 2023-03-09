@@ -2,7 +2,7 @@
     {
         "id": "notebook-01",
         "titulo": "Notebook Dell Inspiron 3515",
-        "imagen": "https://github.com/FranYaca/pre-entrega3-franco-yacaruso/blob/master/imagenes/img-productos/notebook-1.jpeg",
+        "imagen": "../imagenes/img-productos/notebook-1.jpeg",
         "categoria": {
             "nombre": "Notebooks",
             "id": "notebooks"
