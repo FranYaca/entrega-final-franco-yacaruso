@@ -10,3 +10,8 @@ function ocultar_menu(){
 };
 
 btn_menu.addEventListener("click", ocultar_menu);
+
+window.addEventListener("scroll", function(){
+    let header = document.querySelector("header");
+    header.classList.toggle("abajo",window.scrollY>0);
+})

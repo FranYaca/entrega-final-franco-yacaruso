@@ -18,13 +18,21 @@ td{
  
  }
 
- html body {
-   background-color: rgb(193, 154, 229);
- }
+header{
+   position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			background-color: white;
+			transition: 0.7s;
+			padding: 30px 20px;
+			z-index: 10;
+}
 
 .btn_menu{
    display:block;
    margin: 1rem 2rem 1rem 2rem;
+
 }
 
 .btn_menu a{
@@ -39,10 +47,16 @@ td{
     align-items: center;
     margin: 1rem 1rem 2rem 1rem;
     gap: 2rem;
-    color: white;
+    color: black;
+    background-color: white;
 }
 .carr {
    gap: 2rem;
+   display: flex;
+   flex-flow: row;
+   justify-content: end;
+   align-items: right;
+   margin: 1rem 2rem 1rem 2rem;
 }
 .carr a{
    text-decoration: none;
@@ -59,13 +73,13 @@ td{
               inset 0 -3em 3em rgba(0,0,0,0.1),
               0.3em 0.3em 1em rgba(0,0,0,0.3);;
    border-radius: 10%;
-   color:white;
+   color:black;
 
 
 }
 
 .carrit h2 {
-   color: white;
+   color: black;
 }
 .categorias{
    display: flex;
@@ -76,13 +90,15 @@ td{
    margin-bottom: 3rem;
 }
 .categorias h2{
-   color: white;
+   color: black;
 }
 .productos .contenedores {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 4rem;
     margin: 1rem 2rem 1rem 2rem;
+   padding-top: 310px;
+
    }
 .productos .contenedores .producto {
    display: flex;
@@ -171,7 +187,7 @@ td{
    justify-content: center;
    align-items: center;
    gap: 1rem;
-   color: white;
+   color: black;
    margin: 1rem 2rem 1rem 2rem;
 }
 
