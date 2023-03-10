@@ -10,11 +10,16 @@ a{
 
 td{
    height: 100px;
+   width: 86px;
  }
 
  img{
    height: 100%;
  
+ }
+
+ html body {
+   background-color: rgb(193, 154, 229);
  }
 
 .btn_menu{
@@ -34,7 +39,7 @@ td{
     align-items: center;
     margin: 1rem 1rem 2rem 1rem;
     gap: 2rem;
-    color: red;
+    color: white;
 }
 .carr {
    gap: 2rem;
@@ -54,12 +59,13 @@ td{
               inset 0 -3em 3em rgba(0,0,0,0.1),
               0.3em 0.3em 1em rgba(0,0,0,0.3);;
    border-radius: 10%;
+   color:white;
 
 
 }
 
 .carrit h2 {
-   color: red;
+   color: white;
 }
 .categorias{
    display: flex;
@@ -69,7 +75,9 @@ td{
    margin-top: 1rem;
    margin-bottom: 3rem;
 }
-
+.categorias h2{
+   color: white;
+}
 .productos .contenedores {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -163,6 +171,8 @@ td{
    justify-content: center;
    align-items: center;
    gap: 1rem;
+   color: white;
+   margin: 1rem 2rem 1rem 2rem;
 }
 
 
@@ -170,6 +180,7 @@ td{
    display: flex;
    justify-content: center;
    align-items: center;
+
 
 }
 
