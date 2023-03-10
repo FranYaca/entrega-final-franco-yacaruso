@@ -45,10 +45,14 @@ header{
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    margin: 1rem 1rem 2rem 1rem;
-    gap: 2rem;
+    margin: 1rem 2rem 1rem 24rem;
     color: black;
     background-color: white;
+}
+
+.titulo img{
+   width: 50%;
+
 }
 .carr {
    gap: 2rem;
