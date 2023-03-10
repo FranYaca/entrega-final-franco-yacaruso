@@ -46,14 +46,14 @@ td{
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    margin: 0 2rem 0 30rem;
+    margin: 0 2rem 1rem 2rem;
     color: black;
     background-color: white;
 
 }
 
 .titulo img{
-   width: 50%;
+   width: 30%;
 
 }
 .carr {
@@ -224,6 +224,10 @@ td{
    margin-top: 1rem;
    margin-bottom: 3rem;
 }
+.titulo img{
+   width: 70%;
+
+}
 }
 @media screen and (min-width: 767px) and (max-width: 1023px) {
    .productos .contenedores {
@@ -233,4 +237,9 @@ td{
       place-items: center;
       gap: 2rem;
   }
+
+  .titulo img{
+   width: 70%;
+
+}
 }
