@@ -2,7 +2,7 @@
     {
         "id": "notebook-01",
         "titulo": "Notebook Dell Inspiron 3515",
-        "imagen": "../imagenes/img-productos/notebook-1.jpeg",
+        "imagen": "imagenes/img-productos/notebook-1.jpeg",
         "categoria": {
             "nombre": "Notebooks",
             "id": "notebooks"
@@ -12,7 +12,7 @@
     {
         "id": "notebook-02",
         "titulo": "Notebook HP 15-ef2126wm",
-        "imagen": "../imagenes/img-productos/notebook-2.jpeg",
+        "imagen":"imagenes/img-productos/notebook-2.jpeg",
         "categoria": {
             "nombre": "Notebooks",
             "id": "notebooks"
@@ -22,7 +22,7 @@
     {
         "id": "notebook-03",
         "titulo": "Notebook Lenovo IdeaPad 15IML05",
-        "imagen": "../imagenes/img-productos/notebook-3.jpeg",
+        "imagen": "imagenes/img-productos/notebook-3.jpeg",
         "categoria": {
             "nombre": "Notebooks",
             "id": "notebooks"
@@ -32,7 +32,7 @@
     {
         "id": "notebook-04",
         "titulo": "Notebook EXO Smart XQ3K-S3882",
-        "imagen": "../imagenes/img-productos/notebook-4.webp",
+        "imagen": "imagenes/img-productos/notebook-4.webp",
         "categoria": {
             "nombre": "Notebooks",
             "id": "notebooks"
@@ -43,7 +43,7 @@
     {
         "id": "pc-01",
         "titulo": "Pc Armada Gamer Amd Ryzen 5 5600g 6/12 Nucleos 16gb Ssd 480",
-        "imagen": "../imagenes/img-productos/pc-1.jpeg",
+        "imagen": "imagenes/img-productos/pc-1.jpeg",
         "categoria": {
             "nombre": "Pc's de escritorio",
             "id": "pc"
@@ -53,7 +53,7 @@
     {
         "id": "pc-02",
         "titulo": "All In One Hp 22-df0005la Amd Athlon 3150u 4gb 256 Nvme W10",
-        "imagen": "../imagenes/img-productos/pc-2.jpeg",
+        "imagen": "imagenes/img-productos/pc-2.jpeg",
         "categoria": {
             "nombre": "Pc's de escritorio",
             "id": "pc"
@@ -63,7 +63,7 @@
     {
         "id": "pc-03",
         "titulo": "Pc Armada Completa Cpu Computadora I5 8gb 1tb O Ssd Tareas Oficina",
-        "imagen": "../imagenes/img-productos/pc-3.jpeg",
+        "imagen": "imagenes/img-productos/pc-3.jpeg",
         "categoria": {
             "nombre": "Pc's de escritorio",
             "id": "pc"
@@ -73,7 +73,7 @@
     {
         "id": "pc-04",
         "titulo": "Pc Armada Intel Core I5 8gb Ssd240 W10 Office",
-        "imagen": "../imagenes/img-productos/pc-4.jpeg",
+        "imagen": "imagenes/img-productos/pc-4.jpeg",
         "categoria": {
             "nombre": "Pc's de escritorio",
             "id": "pc"
@@ -83,7 +83,7 @@
     {
         "id": "monitores-01",
         "titulo": "Monitor gamer Samsung F24T35 led 24'' azul y gris oscuro 100V/240V",
-        "imagen": "../imagenes/img-productos/monitores-1.jpeg",
+        "imagen": "imagenes/img-productos/monitores-1.jpeg",
         "categoria": {
             "nombre": "Monitores",
             "id": "monitores"
@@ -93,7 +93,7 @@
     {
         "id": "monitores-02",
         "titulo": "Monitor Daewoo DW-MON19 led 19'' negro 100V/240V",
-        "imagen": "../imagenes/img-productos/monitores-2.jpeg",
+        "imagen": "imagenes/img-productos/monitores-2.jpeg",
         "categoria": {
             "nombre": "Monitores",
             "id": "monitores"
@@ -103,7 +103,7 @@
     {
         "id": "monitores-03",
         "titulo": "Monitor gamer curvo Samsung C24RG5 LCD 23.5'' negro 100V/240V",
-        "imagen": "../imagenes/img-productos/monitores-3.webp",
+        "imagen": "imagenes/img-productos/monitores-3.webp",
         "categoria": {
             "nombre": "Monitores",
             "id": "monitores"
@@ -113,7 +113,7 @@
     {
         "id": "monitores-04",
         "titulo": "Monitor Philips V 193V5LSB2 led 18.5'' negro 100V/240V",
-        "imagen": "../imagenes/img-productos/monitores-4.webp",
+        "imagen": "imagenes/img-productos/monitores-4.webp",
         "categoria": {
             "nombre": "Monitores",
             "id": "monitores"
@@ -123,7 +123,7 @@
     {
         "id": "perifericos-01",
         "titulo": "Kit de teclado y mouse gamer Noga NKB-407 Español España de color negro",
-        "imagen": "../imagenes/img-productos/perifericos-1.jpeg",
+        "imagen": "imagenes/img-productos/perifericos-1.jpeg",
         "categoria": {
             "nombre": "Perifericos",
             "id": "perifericos"
@@ -133,7 +133,7 @@
     {
         "id": "perifericos-02",
         "titulo": "Mouse Pad Gamer Led Rgb Retroiluminado 80x30 Xl Noga Horizon",
-        "imagen": "../imagenes/img-productos/perifericos-2.jpeg",
+        "imagen": "imagenes/img-productos/perifericos-2.jpeg",
         "categoria": {
             "nombre": "Perifericos",
             "id": "perifericos"
@@ -143,7 +143,7 @@
     {
         "id": "perifericos-03",
         "titulo": "Cámara web Logitech C922 Pro Full HD 30FPS color negro",
-        "imagen": "../imagenes/img-productos/perifericos-3.jpeg",
+        "imagen": "imagenes/img-productos/perifericos-3.jpeg",
         "categoria": {
             "nombre": "Perifericos",
             "id": "perifericos"
@@ -153,7 +153,7 @@
     {
         "id": "perifericos-04",
         "titulo": "Parlante Gamer Pc Panter Gb401 Rgb 16w",
-        "imagen": "../imagenes/img-productos/perifericos-4.jpeg",
+        "imagen": "imagenes/img-productos/perifericos-4.jpeg",
         "categoria": {
             "nombre": "Perifericos",
             "id": "perifericos"

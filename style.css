@@ -17,6 +17,16 @@ td{
  
  }
 
+.btn_menu{
+   display:block;
+   margin: 1rem 2rem 1rem 2rem;
+}
+
+.btn_menu a{
+   text-decoration: none;
+   color: black;
+}
+
 .titulo {
     display: flex;
     flex-flow: column;
