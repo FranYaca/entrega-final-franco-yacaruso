@@ -18,11 +18,12 @@ td{
  
  }
 
-header{
+.head{
    position: fixed;
 			top: 0;
 			left: 0;
 			width: 100%;
+         height: 17rem;
 			background-color: white;
 			transition: 0.7s;
 			padding: 30px 20px;
@@ -45,9 +46,10 @@ header{
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    margin: 1rem 2rem 1rem 24rem;
+    margin: 0 2rem 0 30rem;
     color: black;
     background-color: white;
+
 }
 
 .titulo img{
@@ -101,7 +103,7 @@ header{
     grid-template-columns: repeat(4, 1fr);
     gap: 4rem;
     margin: 1rem 2rem 1rem 2rem;
-   padding-top: 310px;
+   padding-top: 270px;
 
    }
 .productos .contenedores .producto {
