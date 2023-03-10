@@ -98,12 +98,24 @@ td{
 .categorias h2{
    color: black;
 }
+
+.banner{
+   display: flex;
+   flex-flow: column;
+   justify-content: center;
+   align-items: center;
+   padding-top: 14rem;
+
+}
+
+
+
 .productos .contenedores {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 4rem;
     margin: 1rem 2rem 1rem 2rem;
-   padding-top: 270px;
+   padding-top: 120px;
 
    }
 .productos .contenedores .producto {
