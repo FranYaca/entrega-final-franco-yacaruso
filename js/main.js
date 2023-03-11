@@ -91,7 +91,7 @@ function agregar_carrito (e){
         producto_agregado.cantidad = "1";
         carrito.push(producto_agregado);
     }
-    
+
     actualizarNumerito();
 
     localStorage.setItem("productos", JSON.stringify(carrito));
@@ -101,11 +101,10 @@ function agregar_carrito (e){
 }
 function actualizarNumerito() {
 
-
-    let nuevo_numerito = carrito.reduce((acu, producto) =>  acu + producto.cantidad, 0);
+    let nuevo_numerito = carrito.reduce((acu, producto) =>   acu + parseInt(producto.cantidad), 0);
     numerito.innerText = nuevo_numerito;
 
-    }
+}
           
 
 let btn_agregar = document.querySelectorAll(".btn_agregar");
