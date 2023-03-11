@@ -241,7 +241,7 @@ td{
 
 }
 td{
-   width: 50px;
+   width: 40px;
 }
 .boton-con {
    display: flex;
@@ -254,9 +254,9 @@ td{
  }
 
  .producto .producto-imagen {
-   max-width: 70%;
+   max-width: 80%;
    border-radius: 1rem;
-   max-height: 40%;
+   max-height: 30%;
 }
 }
 @media screen and (min-width: 767px) and (max-width: 1023px) {
