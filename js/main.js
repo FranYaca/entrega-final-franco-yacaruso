@@ -63,7 +63,7 @@ let carritoLS = localStorage.getItem("productos");
 
 if (carritoLS) {
     carrito = JSON.parse(carritoLS);
-    actualizarNumerito();
+    actualizar_numerito();
 
 } else {
     carrito = [];
@@ -92,14 +92,14 @@ function agregar_carrito (e){
         carrito.push(producto_agregado);
     }
 
-    actualizarNumerito();
+    actualizar_numerito();
 
     localStorage.setItem("productos", JSON.stringify(carrito));
     
 
      
 }
-function actualizarNumerito() {
+function actualizar_numerito() {
 
     let nuevo_numerito = carrito.reduce((acu, producto) =>   acu + parseInt(producto.cantidad), 0);
     numerito.innerText = nuevo_numerito;
