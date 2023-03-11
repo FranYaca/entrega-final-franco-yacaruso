@@ -12,6 +12,7 @@ function ocultar_menu(){
 btn_menu.addEventListener("click", ocultar_menu);
 
 window.addEventListener("scroll", function(){
-    let header = document.querySelector("header");
+    let header = document.querySelector(".head");
     header.classList.toggle("abajo",window.scrollY>0);
+
 })

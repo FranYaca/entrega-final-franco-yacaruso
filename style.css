@@ -23,8 +23,8 @@ td{
 			top: 0;
 			left: 0;
 			width: 100%;
-         height: auto;
-			background-color: white;
+         height: 13rem;
+			background-color: rgb(255, 255, 255);
 			transition: 0.7s;
 			padding: 30px 20px;
 			z-index: 10;
@@ -32,7 +32,7 @@ td{
 
 .btn_menu{
    display:block;
-   margin: 1rem 2rem 1rem 2rem;
+   margin: 0 2rem 1rem 2rem;
 
 }
 
@@ -62,7 +62,7 @@ td{
    flex-flow: row;
    justify-content: end;
    align-items: right;
-   margin: 1rem 2rem 1rem 2rem;
+   margin: 3rem 2rem 1rem 2rem;
 }
 .carr a{
    text-decoration: none;
@@ -84,18 +84,21 @@ td{
 
 }
 
-.carrit h2 {
+.carrit h6 {
    color: black;
 }
 .categorias{
-   display: flex;
+   display: none;
    flex-flow: row;
-   justify-content: space-around;
+   justify-content: center;
    align-items: center;
    margin-top: 1rem;
-   margin-bottom: 3rem;
+
+   height: .5rem;
+   gap: 2rem;
+   
 }
-.categorias h2{
+.categorias p{
    color: black;
 }
 
@@ -114,8 +117,8 @@ td{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 4rem;
-    margin: 1rem 2rem 1rem 2rem;
-   padding-top: 120px;
+    margin: 7rem 2rem 1rem 2rem;
+
 
    }
 .productos .contenedores .producto {
@@ -123,7 +126,7 @@ td{
    flex-flow: column;
    justify-content: center;
    align-items: center;
-   gap: 2rem;
+   gap: 1rem;
    background-color: rgb(233, 228, 228);
    border-radius: 15%;
    height: 25rem;
@@ -133,17 +136,18 @@ td{
 }
 
 .producto .producto-imagen {
-   max-width: 100%;
+   max-width: 70%;
    border-radius: 1rem;
+   max-height: 50%;
 }
 
 .producto .producto-detalles {
    padding: .5rem;
-   border-radius: 1rem;
    position: relative;
    display: flex;
    flex-direction: column;
-   gap: .25rem;
+   gap: .2rem;
+
 }
 
 .producto .producto-titulo {
@@ -151,13 +155,15 @@ td{
 }
 
 .producto .producto-agregar {
+   margin: auto;
    border: 0;
    background-color: blue;
    color: white;
    padding: .4rem;
    text-transform: uppercase;
-   border-radius: 2rem;
+   border-radius: .5rem;
    cursor: pointer;
+   width: 90%;
 
 
 }
@@ -228,13 +234,14 @@ td{
   }
 
   .categorias{
-   display: flex;
+   display: none;
    flex-flow: column;
    justify-content: space-around;
    align-items: center;
-   gap:.5rem;
-   margin-top: 1rem;
-   margin-bottom: 3rem;
+   height:25rem;
+   gap: .1rem;
+   background-color: white;
+   background-size: 100%;
 }
 .titulo img{
    width: 70%;
@@ -250,7 +257,7 @@ td{
    align-items: center;
    gap: 2rem;
    margin-bottom: 2rem;
-   margin-top: 8rem;
+   margin-top: 3rem;
  }
 }
 @media screen and (min-width: 767px) and (max-width: 1023px) {
