@@ -240,6 +240,18 @@ td{
    width: 70%;
 
 }
+td{
+   width: 50px;
+}
+.boton-con {
+   display: flex;
+   flex-flow: column;
+   justify-content: center;
+   align-items: center;
+   gap: 2rem;
+   margin-bottom: 2rem;
+   margin-top: 8rem;
+ }
 }
 @media screen and (min-width: 767px) and (max-width: 1023px) {
    .productos .contenedores {
