@@ -30,11 +30,7 @@ td{
 			z-index: 10;
 }
 
-.btn_menu{
-   display:block;
-   margin: 0 2rem 1rem 2rem;
 
-}
 
 .btn_menu a{
    text-decoration: none;
@@ -47,9 +43,6 @@ td{
     justify-content: center;
     align-items: center;
     margin: 0 2rem 1rem 2rem;
-    color: black;
-    background-color: white;
-
 }
 
 .titulo img{
@@ -60,8 +53,8 @@ td{
    gap: 2rem;
    display: flex;
    flex-flow: row;
-   justify-content: end;
-   align-items: right;
+   justify-content: space-between;
+   align-items: center;
    margin: 3rem 2rem 1rem 2rem;
 }
 .carr a{
